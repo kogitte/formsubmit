@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       
+        .container .contactInfo{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        .container .contactInfo .box1{
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+        .container .contactInfo .box1 .icon{
+            min-width: 60px;
+            height: 60px;
+            background: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;
+        }
+        .container .contactInfo .box1 .text{
+            display: flex;
+            margin-left: 20px;
+            font-size: 16px;
+            color: palevioletred;
+            flex-direction: column;
+            font-weight: 300;
+        }
+        .container .contactInfo .box1 .text h3{
+            font-weight: 500;
+            color: #00bcd4;
+
+        }
+        @media (max-width:991px){
+            .contact{
+                padding: 50px;
+            }
+            .container{
+                flex-direction: column;
+            }
+            .container .contactInfo{
+                margin-bottom: 40px;
+            }
+            .container .contactInfo,
+            .contactForm{
+                width: 100%;
+            }
+        }
+       
+        
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b3c93c1374.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/ham.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><span class="text-warning">GNOK</span></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+              </div>
+
+              <div class="contact">
+                <div class="content">
+                    <h2>Contact Us</h2>
+                    <p>La nouvelle bear superiure de leinture embellit; chaussures, sacs, ceintures et tous les products are cur. Mode d' emploi la surface du material doit etre propre, ne doucement ni grandisse, huile ou salete</p>
+                </div>
+                <div class="container" style="width: 100%; display: flex; justify-content: center; align-items: center; margin-top: 30px;">
+                    <div class="contactInfo">
+                        <div class="box1">
+                            <div class="icon"><i class="fa-sharp fa-regular fa-map-pin"></i></div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>Kilometre 8, Coker Road, <br> Galilee Estate Ibogun Ifo, <br> Ogun State. </p>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="icon"><i class="fa-regular fa-phone"></i></div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>08034718835</p>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>gnokshoes@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contactForm">
+                        <form action="https://formsubmit.gnokshoes@gmail.com" method="POST">
+                            <h2>Send Message</h2>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Full Name</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Email</span>
+                            </div>
+                            <div class="inputBox">
+                                <textarea required="required"></textarea>
+                                <span>Type your Message... </span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" name="" value="send">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+              </div>
+              <footer>
+                <div class="container p-5">
+                    <div class="row text-center">
+                      <div class="col-md-4">
+                        <img src="images/icon-7.png" alt="">
+                        <hr class="light">
+                        <p>+234 809-77-43-267</p>
+                        <p>hamshoes22@gmail.com</p>
+                        <p>100 Street Name</p>
+                        <p>Abuja, Nigeria</p>
+                      </div>
+                      <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Our Hours</h5>
+                        <hr class="light">
+                        <p>Monday: 9am-5pm</p>
+                        <p> Saturday: 10am-4pm</p>
+                        <p>Sunday: closed</p>
+                      </div>
+                      <div class="col-md-4">
+                        <hr class="light">
+                        <h5>About us</h5>
+                        <hr class="light">
+                        <p>Monday: 9am-5pm</p>
+                        <p> Saturday: 10am-4pm</p>
+                        <p>Sunday: closed</p>
+                      </div>
+                      <div class="col-12">
+                        <hr class="light-100">
+                        <h5>&copy; GNOK Enterprises</h5>
+                      </div>
+            
+            
+            
+                    </div>
+                  </div>
+            </footer>
+        
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="js/ham.js"></script>
+</body>
+</html>
